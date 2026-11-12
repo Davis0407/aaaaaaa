@@ -3,21 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stephabot</title>
+    <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-    
-    <div id="pantallaInicio" class="pantalla-completa">
-        <button class="btn-click" id="miBoton">click aqui</button>
+    <div class="decoracion-fondo">
+        <span class="sticker s1">🐱</span>
+        <span class="sticker s2">🍌</span>
+        <span class="sticker s3">🕷️</span>
+        <span class="sticker s4">🐾</span>
+        <span class="sticker s5">🛡️</span>
+        <span class="sticker s6">👓</span>
+        <span class="sticker s7">😻</span>
+        <span class="sticker s8">⚡</span>
+
+        <!-- Gatito dibujado animado -->
+        <svg class="dibujo-flotante d1" viewBox="0 0 100 100">
+            <polygon points="18,45 25,12 45,32" fill="#ff9ec4"/>
+            <polygon points="82,45 75,12 55,32" fill="#ff9ec4"/>
+            <polygon points="23,40 27,20 40,33" fill="#141216"/>
+            <polygon points="77,40 73,20 60,33" fill="#141216"/>
+            <ellipse cx="50" cy="58" rx="36" ry="30" fill="#ff9ec4"/>
+            <circle cx="36" cy="55" r="5" fill="#141216"/>
+            <circle cx="64" cy="55" r="5" fill="#141216"/>
+            <circle cx="34" cy="53" r="1.8" fill="#ffffff"/>
+            <circle cx="62" cy="53" r="1.8" fill="#ffffff"/>
+            <polygon points="46,63 54,63 50,68" fill="#ea4c89"/>
+            <path d="M42 70 Q46 75 50 70 Q54 75 58 70" stroke="#141216" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <line x1="12" y1="58" x2="26" y2="60" stroke="#ffe6ef" stroke-width="2" stroke-linecap="round"/>
+            <line x1="12" y1="65" x2="26" y2="65" stroke="#ffe6ef" stroke-width="2" stroke-linecap="round"/>
+            <line x1="88" y1="58" x2="74" y2="60" stroke="#ffe6ef" stroke-width="2" stroke-linecap="round"/>
+            <line x1="88" y1="65" x2="74" y2="65" stroke="#ffe6ef" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+
+        <!-- Minion dibujado animado -->
+        <svg class="dibujo-flotante d2" viewBox="0 0 100 100">
+            <rect x="25" y="15" width="50" height="72" rx="25" fill="#ffd93d"/>
+            <path d="M25 65 L75 65 L75 72 A25 25 0 0 1 25 72 Z" fill="#2b6cb0"/>
+            <rect x="23" y="36" width="54" height="8" fill="#141216"/>
+            <circle cx="50" cy="40" r="14" fill="#a0aec0" stroke="#141216" stroke-width="2"/>
+            <circle cx="50" cy="40" r="10" fill="#ffffff"/>
+            <circle cx="50" cy="40" r="4.5" fill="#4a3b42"/>
+            <circle cx="48" cy="38" r="1.5" fill="#ffffff"/>
+            <path d="M40 58 Q50 65 60 58" stroke="#141216" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+
+        <!-- Spider-Man (Marvel) dibujado animado -->
+        <svg class="dibujo-flotante d3" viewBox="0 0 100 100">
+            <ellipse cx="50" cy="50" rx="32" ry="40" fill="#e53e3e" stroke="#141216" stroke-width="3"/>
+            <path d="M24 44 Q36 36 45 50 Q35 60 24 44 Z" fill="#ffffff" stroke="#141216" stroke-width="3"/>
+            <path d="M76 44 Q64 36 55 50 Q65 60 76 44 Z" fill="#ffffff" stroke="#141216" stroke-width="3"/>
+            <line x1="50" y1="10" x2="50" y2="38" stroke="#141216" stroke-width="1.5"/>
+            <line x1="50" y1="62" x2="50" y2="90" stroke="#141216" stroke-width="1.5"/>
+            <path d="M28 28 Q50 35 72 28" stroke="#141216" stroke-width="1.5" fill="none"/>
+            <path d="M26 72 Q50 65 74 72" stroke="#141216" stroke-width="1.5" fill="none"/>
+        </svg>
     </div>
 
-    
+    <div id="pantallaInicio" class="pantalla-completa">
+        <div class="panel-inicio">
+            <div class="personajes-mini">
+                <!-- Mini Gatito -->
+                <svg class="mini-svg" viewBox="0 0 100 100">
+                    <polygon points="18,45 25,12 45,32" fill="#ff9ec4"/>
+                    <polygon points="82,45 75,12 55,32" fill="#ff9ec4"/>
+                    <ellipse cx="50" cy="58" rx="36" ry="30" fill="#ff9ec4"/>
+                    <circle cx="36" cy="55" r="5" fill="#141216"/>
+                    <circle cx="64" cy="55" r="5" fill="#141216"/>
+                    <polygon points="46,63 54,63 50,68" fill="#ea4c89"/>
+                    <path d="M42 70 Q46 75 50 70 Q54 75 58 70" stroke="#141216" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                </svg>
+
+                <!-- Mini Minion -->
+                <svg class="mini-svg" viewBox="0 0 100 100">
+                    <rect x="25" y="15" width="50" height="72" rx="25" fill="#ffd93d"/>
+                    <path d="M25 65 L75 65 L75 72 A25 25 0 0 1 25 72 Z" fill="#2b6cb0"/>
+                    <rect x="23" y="36" width="54" height="8" fill="#141216"/>
+                    <circle cx="50" cy="40" r="14" fill="#a0aec0" stroke="#141216" stroke-width="2"/>
+                    <circle cx="50" cy="40" r="10" fill="#ffffff"/>
+                    <circle cx="50" cy="40" r="4.5" fill="#4a3b42"/>
+                    <path d="M40 58 Q50 65 60 58" stroke="#141216" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                </svg>
+
+                <!-- Mini Marvel -->
+                <svg class="mini-svg" viewBox="0 0 100 100">
+                    <ellipse cx="50" cy="50" rx="32" ry="40" fill="#e53e3e" stroke="#141216" stroke-width="3"/>
+                    <path d="M24 44 Q36 36 45 50 Q35 60 24 44 Z" fill="#ffffff" stroke="#141216" stroke-width="3"/>
+                    <path d="M76 44 Q64 36 55 50 Q65 60 76 44 Z" fill="#ffffff" stroke="#141216" stroke-width="3"/>
+                </svg>
+            </div>
+            <button class="btn-click" id="miBoton">click aqui</button>
+        </div>
+    </div>
+
     <div id="pantallaImagen" class="pantalla-completa oculto">
         <div class="bloque-contenido">
-            <img src="six.png" width="500" height="500" alt="gj">
+            <img src="six.png" class="foto-principal" width="500" height="500" alt="gj">
             <h1>eres una bot</h1>
+            <div class="iconos-abajo">🐱 🍌 🕷️</div>
         </div>
     </div>
 
